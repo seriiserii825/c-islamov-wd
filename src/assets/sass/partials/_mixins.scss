@@ -9,3 +9,23 @@
         src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'), url('#{$file-path}.woff') format('woff'), url('#{$file-path}.ttf') format('truetype');
     }
 }
+
+@mixin roboto-regular(){
+	font-family: "Roboto Regular", sans-serif;
+}
+
+@mixin roboto-medium(){
+	font-family: "Roboto Medium", sans-serif;
+}
+
+@mixin roboto-bold(){
+	font-family: "Roboto Bold", sans-serif;
+}
+
+@mixin roboto-light(){
+	font-family: "Roboto Light", sans-serif;
+}
+
+@mixin roboto-black(){
+	font-family: "Roboto Black", sans-serif;
+}

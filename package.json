@@ -1,5 +1,5 @@
 {
-  "name": "start-template.loc",
+  "name": "s-islamov-wd",
   "version": "1.0.0",
   "main": "gulfpile.js",
   "scripts": {
@@ -46,6 +46,7 @@
     "run-sequence": "^2.2.0"
   },
   "dependencies": {
+    "bower": "^1.8.4",
     "fontforge": "0.0.4"
   },
   "description": ""
