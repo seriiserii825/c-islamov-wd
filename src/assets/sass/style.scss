@@ -27,6 +27,11 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: all .3s ease;
+
+  &:hover {
+    background: darken($accent, 5%);
+  }
 
   img {
     margin-right: 7px;
@@ -38,6 +43,10 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   max-width: 942px;
+}
+
+p {
+  margin: 0;
 }
 
 ul {
@@ -70,3 +79,4 @@ img {
 }
 
 @import "blocks/header";
+@import "blocks/intro";
